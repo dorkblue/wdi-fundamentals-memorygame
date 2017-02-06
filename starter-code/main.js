@@ -5,7 +5,18 @@ var cardTwo = "queen";
 var cardThree = "king";
 var cardFour = "king";
 
-if (cardOne === cardTwo){
+var gameBoard = document.getElementById('game-board');
+
+var createCards = function (noOfCards){
+  for(var i = 1; i <= noOfCards; i++){
+    var cardCreated = document.createElement('div');
+    cardCreated.setAttribute('class', 'card');
+
+    document.getElementById('game-board').appendChild(cardCreated);
+  };
+};
+
+/*if (cardOne === cardTwo){
 	alert("You've found a match!");
 }
 
@@ -27,5 +38,5 @@ if (cardTwo !== cardFour){
 
 if (cardTwo !== cardThree){
 	alert("Sorry, try again.");
-}
+}*/
 
