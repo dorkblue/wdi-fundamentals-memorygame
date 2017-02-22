@@ -29,6 +29,21 @@ main {
 	margin: 0 auto;
 }
 
+button {
+	display: block;
+	width: 404px;
+	margin: 0 auto;
+	font-size: 1.3em;
+}
+
+button:hover {
+	background-color: rgba(255,0,0,1);
+	display: block;
+	width: 404px;
+	margin: 0 auto;
+	font-size: 1.3em;
+}
+
 h1 {
 color: rgba(0,128,128,1);
 }
@@ -52,12 +67,12 @@ footer {
 }
 */
 
-}
 .board {
 	background-color: rgba(0,0,0,.5);
 	height: 50%;
 	width: 404px;
 	display: inline-block;
+	margin: 0 auto;
 }
 
 .card {
@@ -68,6 +83,11 @@ footer {
 	border: 1px solid rgba(0,0,0,1);
 	border-radius: 10px;
 	margin: 25px;
+}
+.cardPic {
+	float: left;
+	height: 200px;
+	width: 150px;
 }
 
 .name {
